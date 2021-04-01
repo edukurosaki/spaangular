@@ -1,0 +1,14 @@
+.footer {
+  color: white;
+  border-top: 1px solid rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(53, 53, 53);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size:20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top:20px;
+ }

@@ -1,0 +1,95 @@
+h3{
+  color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+
+}
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(19, 99, 39);
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: justify;
+ }
+p + p {
+  text-indent: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container{
+  background-color: rgb(44, 44, 47);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.apresentation{
+  padding-top: 70px;
+  padding-left: 100px;
+  max-width: 500px;
+}
+
+/* estiliza as imagens a direita da page home */
+.logos{
+  padding-top: 70px;
+  padding-left: 100px;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  max-height: 200px;
+  max-width: 500px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.center{
+  height: 500px;
+  width:650px;
+  position: relative;
+  background-image: url("../../../../assets/imagens/vector.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  top: -30px;
+  left: 110px;
+  transform: rotate(-25deg);
+
+}
+.ajust{
+  transform: rotate(25deg);
+  margin-top: -50px;
+  margin-left: -15px;
+}
+
+
+.botton{
+  max-height: 200px;
+  max-width: 500px;
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+}
+
+/* estiliza o cartao de apresentação a esquerda na page home */
+.description{
+  color: #fff;
+}
+
+button{
+  margin-top: 15px;
+  width: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+header{
+  background-color: rgb(224, 224, 230);
+  height: 100%;
+  width: 100%;
+}
+
+.card-top{
+  height: auto;
+  width: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  color:  white;
+}
+
+.card-title{
+  background-color: rgb(144, 144, 168);
+  width: 600px;
+}
+
+.container {
+  height: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 0;
+  margin: 0;
+  justify-content: center;
+}
+.card {
+  max-width: 700px;
+  height: 800px;
+  display: flex;
+}
+
+.header-image {
+  background-image: url("../../../../assets/imagens/fotoEdu.jpg");
+  background-size: cover;
+
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  justify-content: bottom;
+}
+
+mat-card-content{
+  float: left;
+}
