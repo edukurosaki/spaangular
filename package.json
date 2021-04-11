@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "postinstall": "npm run build",
     "start": "node server",
+    "postinstall": "npm run build",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
